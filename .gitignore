@@ -1,0 +1,35 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+
+# Gradle y Kotlin
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Configuración local del SDK
+local.properties
+
+# Salidas nativas
+.externalNativeBuild/
+.cxx/
+
+# Firmas y secretos
+*.jks
+*.keystore
+keystore.properties
+debug.keystore
+.env
+.env.*
+
+# Sistema operativo y herramientas
+.DS_Store
+Thumbs.db
+captures/
+
+# Paquetes generados: se conserva únicamente el APK público de /APK
+*.apk
+*.aab
+!APK/
+!APK/*.apk
